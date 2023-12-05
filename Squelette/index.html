@@ -1,57 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>One Million Lines</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+  <title>One Million Lines</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
+  <!-- Custom styles for this template -->
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
 
     <nav>
-      <!-- Votre code ici -->
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+          <img src="/Squelette/images/top-logo.png">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#who">WHO WE ARE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#get">GET INVOLVED</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </nav>
 
-    <div id="home">
+  <!-- /#home -->
+ <div id="home">
+    <!-- Votre code ici -->
+    <div class="container">
+      <div>
+      <h1 class="text-center text-white p-5">
+        Our Goal is to inspire<br> Tallahassee to write 1,000,000<br> lines of code_
+      </h1>
+    </div>
+      <p class="text-center text-white">
+        All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. <br>Million of code are being written. In the capital of FLorida, Tallahassee, the community is<br> taking the challenge and our goal is to write 1,000,000 lines of code_
+      </p>
+
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Learn More >>
+      </button>
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex justify-content-center" >
+          <iframe width="450" height="315" src="https://www.youtube.com/embed/zUQRqEddE2Y?si=m8cpyaSL_1Jqew8n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="d-flex justify-content-center p-5">
+      <img src="../Squelette/images/code.png" alt="">
+    </div>
+    </div>
+  </div><!-- /#home -->
+
+  <!-- /#who -->
+  <div id="who">
+    <!-- Votre code ici -->
+    <div class="container">
+      <div class="d-flex justify-content-center mt-5">
+      <img src="../Squelette/images/academy-brand-med.png">
+    </div>
+    <div>
+      <h1 class="text-danger text-center mt-4">
+        WHO WE ARE
+      </h1>
+      <div class="linea"></div>
+    </div>
+      <p class="text-center text-black mt-4">
+        We are <span class="text-danger">MASSIVE Academy</span>. We aim to improve education thought both method -effective project-based learning - and material<br> -by teaching skills that are applicable to improving your life today.
+      </p>
+  </div>
+ 
+
+  <div id="get-involved" class="p-5" >
       <!-- Votre code ici -->
-    </div><!-- /#home -->
+      <h1 class="text-danger text-center mt-4" id="get">
+        GET INVOLVED
+      </h1>
+      <div class="linea"></div>
+      <div class="container text-center mt-4">
+        <div class="row align-items-start" id="colonne">
+          <div class="col">
+            <i class="fa-solid fa-circle-user fa-7x mt-5" style="color: #241f31;"></i>
+            <h1 class="text-danger text-center mt-4">
+              STUDENTS
+              </h1>
+            <p> Want to learn how to code ? Want to <br> help us get to 1,000,000 lines? Click <br> the button below and we'll let yo know <br> hot to get involved.</p>
+            <button type="button" class="btn btn-outline-danger btn-lg">
+              Start Learning >>
+            </button>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-pencil fa-7x mt-5" style="color: #241f31;" ></i>
+            <h1 class="text-danger text-center mt-4">
+              EDUCATORS
+              </h1>
+            <p> Want to bring this initiative to your <br> school or institution ? Awesome! Click <br> the button below and we'll make it <br> happen.</p>
+            <button type="button" class="btn btn-outline-danger btn-lg">
+              Join The Initiative>>
+            </button>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-money-bill-1 fa-7x mt-5" style="color: #241f31;"></i>
+            <h1 class="text-danger text-center mt-4">
+              SPONSORS
+            </h1>
+            <p> We love all the support we get to help <br> host more events, and empower more <br> lives with the knowledge of coding.<br> Click to get involved.</p>
+            <button type="button" class="btn btn-outline-danger btn-lg mb-4">
+              Give Support>
+            </button>
+          </div>
+        </div>
+      </div>
+  </div><!-- /#get-involved -->
 
-    <div id="who">
-      <!-- Votre code ici -->
-    </div><!-- /#who -->
+  <footer>
+    <div class="p-5 d-flex justify-content-center">
+      <img src="../Squelette/images/one-million-bottom-brand.png">
+    </div>
+  </footer>
+   
+ 
 
-    <div id="get-involved">
-      <!-- Votre code ici -->
-    </div><!-- /#get-involved -->
-
-    <footer>
-      <!-- Votre code ici -->
-    </footer>
-
-    <div id="back-to-top">
-      <!-- Votre code ici -->
-    </div><!-- /#back-to-top -->
+  <div id="back-to-top">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-chevron-up fa-2xl" style="color: #241f31;"></i></button> 
+  </div><!-- /#back-to-top -->
 
 
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/button.js"></script>
+</body>
+
 </html>
